@@ -1,0 +1,26 @@
+Package: linux-image-2.6.34-casio
+Source: linux-source-2.6.34-casio
+Version: 2.6.34-casio-10.00.Custom
+Architecture: i386
+Maintainer: Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>
+Installed-Size: 10788
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Suggests: fdutils, linux-doc-2.6.34-casio | linux-source-2.6.34-casio, ksymoops, linux-image-2.6.34-casio-dbg
+Provides: linux-image, linux-image-2.6
+Section: kernel
+Priority: optional
+Description: Linux kernel binary image for version 2.6.34-casio
+ This package contains the Linux kernel image for version
+ 2.6.34-casio.
+ .
+ It also contains the corresponding System.map file, and the modules
+ built by the packager.  It also contains scripts that try to ensure
+ that the system is not left in a unbootable state after an update.
+ .
+ Kernel image packages are generally produced using kernel-package,
+ and it is suggested that you install that package if you wish to
+ create a custom kernel from the sources. Please look at kernel-img.conf(5),
+ and /usr/share/doc/kernel-package/README.gz  from the package kernel-package
+ for details on how to tailor the  installation of this or any other kernel
+ image package

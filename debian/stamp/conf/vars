@@ -1,0 +1,11 @@
+This is kernel package version 12.032.
+VERSION		= 2
+PATCHLEVEL	= 6
+SUBLEVEL		= 34
+EXTRAVERSION	= 
+APPEND_TO_VERSION = -casio
+KPKG_SELECTED_MODULES = 
+Debian Revision	= 2.6.34-casio-10.00.Custom
+KPKG_ARCH	= 
+do_parallel	= 
+fast_dep		= 
